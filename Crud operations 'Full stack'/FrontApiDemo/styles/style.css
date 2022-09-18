@@ -1,0 +1,40 @@
+body{
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 2px;
+    background-image: linear-gradient(white, rgb(106, 106, 243));
+    background-attachment: fixed;
+}
+input,textarea{
+    background-color: #dfdfdf !important;
+    border-color: #c3c3c3 !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+
+}
+.shadow{
+    box-shadow: 0 0.7rem 1rem rgba(0,0,0,.15)!important;
+}
+#signin
+{
+    border: #fff 1px;
+    border-radius: 50px ;
+}
+.userLogo
+{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    padding: 20px 20px;
+    background-color:rgb(192, 192, 237);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.signinBtn
+{
+    background-color:rgb(192, 192, 237);
+}
+.logOutBtn
+{
+    left: 90%;
+}
